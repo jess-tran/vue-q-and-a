@@ -1,22 +1,7 @@
-# qanda
+Simple Q&A web application built in NUXTJS and VUEX.
 
-> Question and answers app
+Main page displays a list of questions. Each question displays the top rated answer.
+The questions can be filtered by existing tags.
 
-## Build Setup
-
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+The secondary page displays a specific question with all of the corresponding answers.
+Answers can be sorted by ascending and descending rank.
